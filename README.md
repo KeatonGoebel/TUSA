@@ -5,7 +5,9 @@ TUSA(Transylvania University Scheduling Assistant) is an automatic scheduling we
 ## Using TUSA 
 
 Link to TUSA: http://www.cs.transy.edu/TUSA/js-login/front/build/
+
 Username: Username
+
 Password: Password*1
 
 The Automatic Schedule tab can be found under Plan & Schedule on the navigation bar. If you prefer to make a new account on the login page, the email portion requires a Transylvania University formatted email, which is username@transy.edu. Also to use the automatic scheduler, you must first declare a major. The provided account has already declared themselves as a Computer Science major, but this can be changed under Major Declaration also under Plan & Schedule.

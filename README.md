@@ -1,6 +1,6 @@
 # TUSA
 
-TUSA(Transylvania University Scheduling Assistant) is an automatic scheduling website that attempts to remedy the stressful situation of students scheduling for their four years at college. I developed this project alongside four other people for my senior project. TUSA guarantees a valid four year plan for students while also taking into account their interests when devising the schedule. Students can input their preferences of what classes and programs they want and do not want to take, what major they want to schedule for, and how many years they want to schedule for. TUSA also has several other features such as graduation progress, notes they can keep with other students and professors, the course catalog, and a personalized calendar. 
+TUSA(Transylvania University Scheduling Assistant) is an automatic scheduling website that attempts to remedy the stressful situation of students scheduling for their four years at college. I developed this project alongside three other people for my senior project. TUSA guarantees a valid four year plan for students while also taking into account their interests when devising the schedule. Students can input their preferences of what classes and programs they want and do not want to take, what major they want to schedule for, and how many years they want to schedule for. TUSA also has several other features such as graduation progress, notes they can keep with other students and professors, the course catalog, and a personalized calendar. 
 
 ## Using TUSA 
 

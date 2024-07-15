@@ -14,7 +14,7 @@ The Automatic Schedule tab can be found under Plan & Schedule on the navigation 
 
 <img width="739" alt="Screenshot 2024-04-23 at 3 12 58 PM" src="https://github.com/KeatonGoebel/TUSA/assets/155006422/547a69cf-46b4-43ae-923e-d7190b1fb3d6">
 
-### TUSA Homepage
+## TUSA Homepage
 
 <img width="1280" alt="Screenshot 2024-04-23 at 12 56 21 PM" src="https://github.com/KeatonGoebel/TUSA/assets/155006422/1d5b57c4-66a1-4d3b-980f-53f752840952">
 
@@ -34,7 +34,7 @@ The Automatic Schedule tab can be found under Plan & Schedule on the navigation 
 
 <img width="1195" alt="Screenshot 2024-04-23 at 2 03 03 PM" src="https://github.com/KeatonGoebel/TUSA/assets/155006422/f187a2aa-a960-4718-ae5b-3132b4d5ae12">
 
-#### Developing TUSA
+## Developing TUSA
 
 Our group was given three months to plan and design our project and an additional three months to implement it. We decided it would be best to split the group into two pairs, with two people working primarily on the front-end and two people working primarily on the back-end. I worked on the back-end, which involved setting up the products database in MySql, the automatic scheduling algorithm in Python, and a Shell Script. Starting with the database, we were careful to use third normal form. This meant that things like each category of user preferences was given its own table. Everytime the user interacts with the website, such as creating an account, declaring a major, or setting their preferences, this information is saved in the database. During login, we also implemented a password hashing system to increase security. Therefore, user passwords are never saved in the database in a readable format. 
 
@@ -44,7 +44,7 @@ Three plain-text files were leveraged to integrate the database, website, and al
 
 The Final part of TUSA's backend was a Shell script. The algorithm was implemented to only run for one semester at time. It takes in a text file, and writes a semester schedule onto username.txt. Our Shell script was helpful because it allowed us to easily call the algorithm over and over again based on the output. It could call the algorithm a different number of times based on the status of the user or stop calling the algorithm if an error message is found in one of the text files. 
 
-##### Challenges and Conclusions 
+## Challenges and Conclusions 
 
 Because of our time constraints, we decided it would be best early on to reimplement an already existing algorithm from a project that was similar to ours. While this decision meant that our code was up and running much faster, it also meant that the code base for our algorithm would be in Python. Python’s extensive features made the process of coding the algorithm much easier and more efficient. However, this choice also exacerbated our algorithm’s performance problems. As the algorithm got increasingly slow as the course list grew we decided to run the algorithm with only a sample of the school course list. Additionally, we also realized it would be impossible to implement every major the school has to offer. Every major requires us to implement the sequence of courses it requires in order to graduate. We decided on five different majors that represent a diversity of departments and also reflected some of the most popular majors in the school to help as many people as possible. Those selected majors were Computer Science, Biology, Business Administration, Digital Arts and Media, and French Language and Literature. Given the limitations we faced, we all felt that TUSA was an impressive piece of software and we were proud of what we accomplished. 
 
